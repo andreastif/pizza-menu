@@ -1,4 +1,4 @@
-export const Info = () => {
+export const Disclaimer = () => {
   return (
     <div className="pt-10 pb-2 mx-2 text-center text-sm italic">
       <p>

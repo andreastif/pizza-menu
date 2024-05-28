@@ -1,5 +1,5 @@
 import { Outlet } from "react-router-dom";
-import { Info } from "./pizzapage/comps/Info";
+import { Disclaimer } from "./pizzapage/comps/Disclaimer";
 
 export const Home = () => {
   return (
@@ -7,7 +7,7 @@ export const Home = () => {
       <div className="min-h-screen">
         <Outlet />
       </div>
-      <Info />
+      <Disclaimer />
     </div>
   );
 };
