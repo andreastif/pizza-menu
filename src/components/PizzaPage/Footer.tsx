@@ -7,9 +7,13 @@ export const Footer = () => {
   const closeHour = 22;
 
   return (
-    <footer className="text-center text-sm mt-10">
-      <p>{new Date().toLocaleTimeString()} </p>
-      <p>{hour >= openHour && hour <= closeHour ? "We're currently open!" : "We're currently closed!"}</p>
+    <footer className="text-center text-sm mt-10 mx-2">
+      <p>
+        {hour >= openHour && hour <= closeHour
+          ? `We're open until ${closeHour}:00. Come visit us or order online!`
+          : `We're happy to welcome you between ${openHour}:00 and ${closeHour}:00`}
+      </p>
+      <button className="btn mt-4 bg-yellow-400 hover:bg-yellow-400/70 hover:border-yellow-400/70">Order now</button>
     </footer>
   );
 };
