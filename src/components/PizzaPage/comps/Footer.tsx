@@ -12,7 +12,7 @@ export const Footer = () => {
     <footer className="text-center text-sm mt-10 mx-2">
       <p>
         {hour >= openHour && hour <= closeHour ? (
-          <Order closeHour={closeHour} />
+          <Order closeHour={closeHour} openHour={openHour} />
         ) : (
           `We're happy to welcome you between ${openHour}:00 and ${closeHour}:00`
         )}
