@@ -1,10 +1,13 @@
 import { Outlet } from "react-router-dom";
+import { Info } from "./PizzaPage/Info";
 
 export const Home = () => {
   return (
-    <div>
-      <h1 className="text-6xl">Pizza Navbar</h1>
-      <Outlet />
+    <div className="bg-yellow-100/60">
+      <div className="min-h-screen">
+        <Outlet />
+      </div>
+      <Info />
     </div>
   );
 };

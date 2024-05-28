@@ -1,14 +1,14 @@
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import { Home } from "./components/Home";
 import ErrorPage from "./components/ErrorPage";
-import { PizzaPage } from "./components/PizzaPage";
+import { PizzaPage } from "./components/PizzaPage/PizzaPage";
 
 // add paths, here
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Home />,
-    children: [{ path: "/pizza", element: <PizzaPage /> }],
+    children: [{ path: "/", element: <PizzaPage /> }],
     errorElement: <ErrorPage />,
   },
 ]);
