@@ -11,11 +11,12 @@ export const Menu = () => {
         {pizzaData.map((data) => {
           return (
             <Pizza
-              name={data.name}
-              price={data.price}
-              ingredients={data.ingredients}
               photoName={data.photoName}
+              name={data.name}
+              ingredients={data.ingredients}
+              price={data.price}
               soldOut={data.soldOut}
+              key={"pizzaKey: " + data.name}
             />
           );
         })}

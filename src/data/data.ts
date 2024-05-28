@@ -8,7 +8,7 @@ interface IPizzaData {
 
 const pizzaData: IPizzaData[] = [
   {
-    name: "Focaccia",
+    name: "Focaccia Bread",
     ingredients: "Bread with italian olive oil and rosemary",
     price: 6,
     photoName: "src/images/focaccia.jpg",
