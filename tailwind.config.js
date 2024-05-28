@@ -1,7 +1,11 @@
 /** @type {import('tailwindcss').Config} */
 export const content = ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"];
 export const theme = {
-  extend: {},
+  extend: {
+    fontFamily: {
+      robot: ["Roboto Mono", "Roboto", "sans-serif"],
+    },
+  },
 };
 
 // eslint-disable-next-line no-undef
