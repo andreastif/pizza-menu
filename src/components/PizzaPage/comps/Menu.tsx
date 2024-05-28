@@ -1,10 +1,10 @@
 import { Pizza } from "./Pizza";
-import pizzaData from "../../data/data";
+import pizzaData from "../../../data/data";
 
 export const Menu = () => {
   return (
-    <div className="mx-auto mt-16 pb-4">
-      <h2 className="text-2xl sm:text-4xl text-center mb-20 ">
+    <div className="mx-auto mt-12 pb-4">
+      <h2 className="text-2xl sm:text-4xl text-center mb-5 sm:mb-14 ">
         <span className="border-t-2 border-b-2 uppercase border-black/50 py-1">Our Menu</span>
       </h2>
       <div className={`${pizzaData.length > 0 ? "grid-cols-2" : "grid-cols-1"} grid gap-2 content-center`}>

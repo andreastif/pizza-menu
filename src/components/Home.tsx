@@ -1,5 +1,5 @@
 import { Outlet } from "react-router-dom";
-import { Info } from "./PizzaPage/Info";
+import { Info } from "./pizzapage/comps/Info";
 
 export const Home = () => {
   return (

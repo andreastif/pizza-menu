@@ -1,7 +1,7 @@
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import { Home } from "./components/Home";
 import ErrorPage from "./components/ErrorPage";
-import { PizzaPage } from "./components/PizzaPage/PizzaPage";
+import { PizzaPage } from "./components/pizzapage/PizzaPage";
 
 // add paths, here
 const router = createBrowserRouter([

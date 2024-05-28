@@ -1,6 +1,6 @@
-import { Footer } from "./Footer";
-import { Header } from "./Header";
-import { Menu } from "./Menu";
+import { Footer } from "./comps/Footer";
+import { Header } from "./comps/Header";
+import { Menu } from "./comps/Menu";
 
 export const PizzaPage = () => {
   return (
