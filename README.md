@@ -6,10 +6,12 @@ This project has been created as part of the Ultimate React Course by Jonas Schm
 
 ### Mobile
 
-![app image mobile](public\image_mobile.png)
-![app image mobile 2](public\image_mobile_2.png)
+![app image mobile](public/image_mobile.png)
+
+![app image mobile 2](public/image_mobile_2.png)
 
 ### Desktop
 
-![app image desktop](public\image_mobile.png)
-![app image desktop 2](public\image_desktop_2.png)
+![app image desktop](public/image_desktop.png)
+
+![app image desktop 2](public/image_desktop_2.png)
